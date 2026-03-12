@@ -15,14 +15,19 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-> Deep in vibe-coding mode – building AI-powered developer tools at ludicrous speed. After 20+ years shipping native programming, modern web feels like a breath of fresh air.
+> Deep in agentic-engineering mode – building AI-powered development tools at ludicrous speed. After 15+ years shipping native programming, modern web feels like a breath of fresh air.
 
 🍭 **[sweetistics.com](https://sweetistics.com/)** (closed source) – AI-powered Twitter platform with analytics/ops stack.
 
 ## Current Projects
 
+- 🚀 **[MS Autogen](https://github.com/tbalt88/autogen)** - framework for building multi-agent AI applications where multiple AI agents collaborate, converse, and autonomously complete complex tasks
 - 🦞 **[OpenClaw](https://openclaw.ai)** - the AI that actually does things
 - 🚇 **[VibeTunnel](https://github.com/amantus-ai/vibetunnel)** - Turn any browser into your terminal; command agents from the road (vt.sh)
+- 📖 **[llm.codes](https://github.com/amantus-ai/llm-codes)** - Transform developer documentation for AI agents
+- 👉 **[MAF](https://github.com/Azure-Samples/python-agentframework-demos)** - MS Offering before GA for the OpenSource MS Agentic Framework
+
+<!--
 - 🎚️ **[CodexBar](https://github.com/steipete/CodexBar)** - May your tokens never run out—keep agent limits in view.
 - 🚀 **[Peekaboo](https://github.com/steipete/Peekaboo)** - Lightning-fast macOS screenshots & GUI automation (MCP + CLI)
 - 👉 **[summarize](https://github.com/steipete/summarize)** - Point at any URL or file. Get the gist.
@@ -59,7 +64,11 @@ Here are some ideas to get you started:
 - 👀 **[tmuxwatch](https://github.com/steipete/tmuxwatch)** - Lightweight TUI to watch tmux sessions
 - 📜 **[agent-rules](https://github.com/steipete/agent-rules)** - Shared rules/knowledge for coding with agents
 - 🎨 **[Markdansi](https://github.com/steipete/Markdansi)** - Wraps, colors, links—no baggage.
-- 📖 **[llm.codes](https://github.com/amantus-ai/llm-codes)** - Transform developer documentation for AI agents
+- 🛑 **[Terminator MCP](https://github.com/steipete/Terminator)** - I'll be back... with your terminal output!
+- 🪢 **[Conduit MCP](https://github.com/steipete/conduit-mcp)** - Purr-fect MCP server for feline-fast file ops, web prowling, and data hunting
+- 🛡️ **[XC Sentinel](https://github.com/steipete/xcsentinel)** - Intelligent Xcode automation with incremental builds and AI-friendly output
+- 🍵 **[Matcha](https://github.com/steipete/Matcha)** - Swift port of Bubble Tea TUI framework
+- 🌡️ **[VibeMeter](https://github.com/steipete/vibemeter)** - Archived: AI cost tracker for Cursor/OpenAI (vibemeter.ai)
 - 📊 **[Stats Store](https://github.com/steipete/stats-store)** - Fast, privacy-first analytics for Sparkle (stats.store)
 - 🧽 **[Demark](https://github.com/steipete/demark)** - Mark My Words, HTML to Markdown!
 - 🛏️ **[eightctl](https://github.com/steipete/eightctl)** - Control your sleep, from the terminal
@@ -69,13 +78,7 @@ Here are some ideas to get you started:
 - 🔄 **[CodeLooper](https://github.com/steipete/CodeLooper)** - macOS menubar app for Cursor workflow monitoring and automation
 - 🧩 **[InterposeKit](https://github.com/steipete/InterposeKit)** - Modern Swift method swizzling
 - 🪝 **[Aspects](https://github.com/steipete/Aspects)** - AOP for Objective-C (10k+ stars)
-- 📄 **[PSPDFKit](https://pspdfkit.com)** - Industry-leading PDF SDK ([exited 2021](https://techcrunch.com/2021/10/01/pspdfkit-raises-116m-its-first-outside-money-now-nearly-1b-people-use-apps-powered-by-its-collaboration-signing-and-markup-tools/))
-- 🛑 **[Terminator MCP](https://github.com/steipete/Terminator)** - I'll be back... with your terminal output!
-- 🪢 **[Conduit MCP](https://github.com/steipete/conduit-mcp)** - Purr-fect MCP server for feline-fast file ops, web prowling, and data hunting
-- 🛡️ **[XC Sentinel](https://github.com/steipete/xcsentinel)** - Intelligent Xcode automation with incremental builds and AI-friendly output
-- 🍵 **[Matcha](https://github.com/steipete/Matcha)** - Swift port of Bubble Tea TUI framework
-- 🌡️ **[VibeMeter](https://github.com/steipete/vibemeter)** - Archived: AI cost tracker for Cursor/OpenAI (vibemeter.ai)
-
+- 📄 **[PSPDFKit](https://pspdfkit.com)** - Industry-leading PDF SDK ([exited 2021](https://techcrunch.com/2021/10/01/pspdfkit-raises-116m-its-first-outside-money-now-nearly-1b-people-use-apps-powered-by-its-collaboration-signing-and-markup-tools/))-->
 
 ## GitHub Activity
 
@@ -83,16 +86,16 @@ Here are some ideas to get you started:
 
 ## What I'm Doing
 
-- **Living in the future** - Learning and building tools to make agentic engineering faster for everyone
+- **Living in the future** - Learning and building tools to make agentic engineering faster for me self
 - **Writing about AI workflows** - 
-- **Rapid prototyping** - Full apps in days, not months
+- **Rapid prototyping** - Full apps in days, not months, like really...
 
 
 ### Media
 
-- **[How to Code 20x Faster with Claude Code](https://www.youtube.com/watch?v=JGxyrPkAKiY&t=2s)** - Detailed walkthrough of my AI-native development workflow
+<!--- **[How to Code 20x Faster with Claude Code](https://www.youtube.com/watch?v=JGxyrPkAKiY&t=2s)** - Detailed walkthrough of my AI-native development workflow
 - **[Arena Live Build – Full Session](https://www.youtube.com/watch?v=z2IDQbNOS5s)** - Live coding session showing the full Arena build process
-- **[Claude 3 Sonnet 'Funeral' in San Francisco](https://www.wired.com/story/claude-3-sonnet-funeral-san-francisco/)** - WIRED article featuring the memorial for Claude 3.5 Sonnet ([no paywall](https://gist.github.com/steipete/8344756e51df68406eb5302d4c19d6ea))
+- **[Claude 3 Sonnet 'Funeral' in San Francisco](https://www.wired.com/story/claude-3-sonnet-funeral-san-francisco/)** - WIRED article featuring the memorial for Claude 3.5 Sonnet ([no paywall](https://gist.github.com/steipete/8344756e51df68406eb5302d4c19d6ea))-->
 
 
 ### Philosophy
