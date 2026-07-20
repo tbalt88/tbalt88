@@ -18,12 +18,14 @@
 - **Architecture first** — identity, data boundaries, observability, and failure modes before "cool demos."
 - **Hardened agents** — simplify/harden/document loops, mis-use mitigation, and OWASP LLM threat models baked into design, not bolted on after.
 - **Human where it counts** — the AI proposes, a person decides on anything high-risk, high-cost, or irreversible. Every one of the projects above enforces that somewhere.
+- **Leading agents like I led teams** — written manifests before any code gets touched, comprehension checks that block start until the agent proves it understood the ask (not just repeats it back), layered verification instead of one green checkmark, and defects that become permanent guardrails instead of one-off fixes. It's how agentic-crm-support-architecture, houndstooth, and Zero to Hardened Agents actually got built — same discipline I used running teams, aimed at agents now.
 
 ## Open To
 
-- Principal / Enterprise Architect roles for AI-enabled business applications — B2B SaaS, healthtech, CRM/support-heavy products.
-- Advisory or fractional work with AI-leaning startups that need sane agent workflows and governance before they scale.
-- Collaboration on MCPs, agent frameworks, and hardened patterns for AI in legacy-heavy environments.
+- **Forward-Deployed Engineer / Forward-Deployed Architect** — embedded with a team, shipping and hardening real systems, not managing a roadmap from a distance.
+- **Solutions Architect / Solutions Engineer** — healthcare, med-device, or other regulated verticals, hands-on and client-facing.
+- **AI Enterprise Architect / AI Governance Architect** — individual-contributor track, bringing production governance patterns (see agentic-crm-support-architecture and Zero to Hardened Agents above) to regulated AI deployments.
+- **Individual contributor, by choice** — I've led people before (4 direct + 20 matrixed engineers); these days I point that same leadership discipline at AI agents instead of a headcount. Not chasing people-management, director, or C-suite titles.
 
 <!-- REPO-TRACKER:START -->
 <!-- Auto-updated: Sun, 19 Jul 2026 08:08:21 GMT -->
@@ -44,13 +46,13 @@
 ## 🏆 Top Repositories
 
 | Repo | Description | Stars | Language |
-|------|-------------|-------|----------|
+|-o|-------------|-------|----------|
 | [**ai-travel-funnel-and-booking**](https://github.com/tbalt88/ai-travel-funnel-and-booking) | AI-enabled travel workspace: a structured, shareable trip itinera… | ⭐ 0 | Python |
 | [**second-brain**](https://github.com/tbalt88/second-brain) | Dexter Domingo's personal, agent-agnostic knowledge system: an Ob… | ⭐ 0 | Python |
 | [**scroll-world**](https://github.com/tbalt88/scroll-world) | A skill that turn any brand into a scrollable 3D world | ⭐ 3,663 ↑ | JavaScript |
 | [**houndstooth**](https://github.com/tbalt88/houndstooth) | Job-hunt automation, end to end: multi-source harvester → AI fit-… | ⭐ 0 | Python |
 | [**agentic_coding_flywheel_setup**](https://github.com/tbalt88/agentic_coding_flywheel_setup) | Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI deve… | ⭐ 1,551 ↑ | Shell |
-| [**antigravity-awesome-skills**](https://github.com/tbalt88/antigravity-awesome-skills) | AAS Core preview is the local, agent-first control plane for disc… | ⭐ 43,560 ↑ | Python |
+| [**antigravity-awesome-skills**](https://github.com/tbalt88/antigravity-awesome-skills) | AAS Core preview is the local, agent-first control plane for disc… | ⭐ 43, 560 ↑ | Python |
 
 > 📋 [See full repo index →](https://github.com/tbalt88/repo-tracker)
 
@@ -58,20 +60,19 @@
 
 ## 🛠 Top Languages
 
-`Python` ×49  `TypeScript` ×33  `JavaScript` ×18  `Jupyter Notebook` ×6  `C#` ×6
+`Python` ×49  `TypeScript` ×33  `JavaScript` ×18  `Jupyter Notebook` �6  `C#` �6
 
 ---
 
 ## 🕐 Recently Updated
 
 | Repo | Last Push | Stars |
-|------|-----------|-------|
+|-o|-----------|-------|
 | [crmtwenty](https://github.com/tbalt88/crmtwenty) | Sun Jul 19 2026 | ⭐ 0 |
 | [wifi-densepose](https://github.com/tbalt88/wifi-densepose) | Sun Jul 19 2026 | ⭐ 0 |
 | [ai-travel-funnel-and-booking](https://github.com/tbalt88/ai-travel-funnel-and-booking) | Sun Jul 19 2026 | ⭐ 0 |
 | [second-brain](https://github.com/tbalt88/second-brain) | Sun Jul 19 2026 | ⭐ 0 |
 | [houndstooth](https://github.com/tbalt88/houndstooth) | Sat Jul 18 2026 | ⭐ 0 |
-
 ---
 
 <sub>🤖 Auto-updated daily by <a href="https://github.com/tbalt88/repo-tracker">repo-tracker</a></sub>
