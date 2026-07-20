@@ -1,84 +1,29 @@
-## Hi there I am Dexter (not the serial killer) 👋
+## Hi, I'm Dexter (not the serial killer) 👋
 
-<!--
-**tbalt88/tbalt88** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> I design and harden agentic AI workflows that fit inside real enterprise architectures — recruiting, CRM/support, travel, and resale — with explicit attention to identity, data boundaries, governance, and operational reality.
 
-Here are some ideas to get you started:
+10+ years in Dynamics 365 CE, Power Platform, and Azure integration across healthcare, med-device, and B2B consulting. These days I build and ship production-pattern agentic AI systems on that same governance instinct — not demos, systems with real users, measured costs, and a human in the loop wherever it matters.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm Building
 
-> Deep in agentic-engineering mode – building AI-powered development tools at ludicrous speed. After 15+ years shipping native programming, modern web feels like a breath of fresh air.
+- 🔨 **Auction Scanner** — live in production at [scanner.dexevo.io](https://scanner.dexevo.io) *(source private)*. Staff photograph an estate sale, the app groups multi-angle photos into items, identifies each one via reverse image search, and pulls market pricing evidence — but the human sets the final price on every item, not the model. FastAPI + React on Render, Postgres, Cloudflare R2. Phase 2A (multi-user admin, cost tracking) shipped as v1.2.0; measured cost: $1.15 for a 20-photo batch.
+- 🎧 **[agentic-crm-support-architecture](https://github.com/tbalt88/agentic-crm-support-architecture)** — a production-pattern reference architecture for AI-assisted customer support: deterministic classification with confidence thresholds and rule-based fallback, guarded RAG with trust scoring against prompt injection, mandatory human approval on high-risk actions, full audit trail, optional transactional Postgres backend. 33 tests, fails safe (not silent) with no API key configured.
+- 🛡️ **Zero to Hardened Agents** — [`gemini-learning-ai-nb`](https://github.com/tbalt88/gemini-learning-ai-nb): an 8-stage, run-it-yourself curriculum from a raw LLM call to a hardened, hybrid cloud/local multi-agent system — grounded RAG that refuses to hallucinate outside its sources, manual tool-calling, real vector search, a multi-agent DAG with a runaway-loop governor, a cloud/local hybrid router, and an automated adversarial test suite (prompt injection, RAG poisoning, PII containment) against the OWASP Top 10 for LLM Applications. Built as a real two-agent collaboration — Gemini planned the architecture, Claude Code wrote every line — with a full, reproducible handoff log.
+- 🎯 **houndstooth** *(private)* — end-to-end job-hunt automation: a multi-source harvester (direct ATS APIs + job boards) → Claude-scored fit ranking → Claude-drafted, verified tailored resume/cover letter → Drive + email digest, running daily via GitHub Actions. My personal ATS and a reference pattern for recruiting-ops workflows.
+- ✈️ **DexEvo Travel — Trip OS** — live (v2 in progress) at [travel.dexevo.io](https://travel.dexevo.io) *(source private)*. A structured, shareable trip itinerary that the traveler and an AI agent edit through the same API, instead of a one-off chat transcript.
+- 🔌 **memory-bridge-mcp** *(private)* — a personal, cross-surface memory system exposed as a remote MCP server on Cloudflare Workers + D1, live-verified from claude.ai and Claude Code, GitHub OAuth-gated to one allowlisted account. It's the recall tier under **second-brain**, my Obsidian-based agent-agnostic knowledge system — together they let an AI agent keep working context across sessions and surfaces instead of starting from zero every time.
 
-🍭 **[sweetistics.com](https://sweetistics.com/)** (closed source) – AI-powered Twitter platform with analytics/ops stack.
+## How I Think
 
-## Current Projects
+- **Architecture first** — identity, data boundaries, observability, and failure modes before "cool demos."
+- **Hardened agents** — simplify/harden/document loops, mis-use mitigation, and OWASP LLM threat models baked into design, not bolted on after.
+- **Human where it counts** — the AI proposes, a person decides on anything high-risk, high-cost, or irreversible. Every one of the projects above enforces that somewhere.
 
-- 🚀 **[MS Autogen](https://github.com/tbalt88/autogen)** - framework for building multi-agent AI applications where multiple AI agents collaborate, converse, and autonomously complete complex tasks
-- 🦞 **[OpenClaw](https://openclaw.ai)** - the AI that actually does things
-- 🚇 **[VibeTunnel](https://github.com/amantus-ai/vibetunnel)** - Turn any browser into your terminal; command agents from the road (vt.sh)
-- 📖 **[llm.codes](https://github.com/amantus-ai/llm-codes)** - Transform developer documentation for AI agents
-- 👉 **[MAF](https://github.com/Azure-Samples/python-agentframework-demos)** - MS Offering before GA for the OpenSource MS Agentic Framework
+## Open To
 
-<!--
-- 🎚️ **[CodexBar](https://github.com/steipete/CodexBar)** - May your tokens never run out—keep agent limits in view.
-- 🚀 **[Peekaboo](https://github.com/steipete/Peekaboo)** - Lightning-fast macOS screenshots & GUI automation (MCP + CLI)
-- 👉 **[summarize](https://github.com/steipete/summarize)** - Point at any URL or file. Get the gist.
-- 🚦 **[RepoBar](https://github.com/steipete/RepoBar)** - CI, PRs, releases—at a glance
-- 🧭 **[go-cli](https://github.com/steipete/gogcli)** - Google in your terminal (`gog`) (Gmail, Calendar, Drive, Contacts, Tasks, Sheets, Docs, Slides, People)
-- 👻 **[Poltergeist](https://github.com/steipete/poltergeist)** - The ghost that keeps your builds fresh—universal hot reload & file watcher
-- 🗃️ **[wacli](https://github.com/steipete/wacli)** - WhatsApp CLI: sync, search, send
-- 🗣️ **[sag](https://github.com/steipete/sag/)** - ElevenLabs speech with mac-style `say` UX; streams to speakers by default
-- 🎙️ **[Brabble](https://github.com/steipete/brabble)** - Wake-word voice daemon for macOS; transcribes locally and fires configurable hooks
-- 🔊 **[sonoscli](https://github.com/steipete/sonoscli)** - Control Sonos speakers: discover, group, queue, play Spotify
-- 📣 **[ElevenLabsKit](https://github.com/steipete/ElevenLabsKit)** - ElevenLabs voices on tap—SwiftPM-friendly, streaming-native.
-- 📍 **[goplaces](https://github.com/steipete/goplaces)** - Google Places API (New) client + CLI
-- 🧲 **[gifgrep](https://github.com/steipete/gifgrep)** - GIF search for terminals: CLI output + TUI with inline previews
-- 📸 **[camsnap](https://github.com/steipete/camsnap)** - RTSP snapshots, clips, motion CLI (Tapo-friendly)
-- 🎧 **[spogo](https://github.com/steipete/spogo)** - Spotify, but make it terminal
-- 🛵 **[ordercli](https://github.com/steipete/ordercli)** - Your takeout timeline, in the terminal
-- 🫐 **[blucli](https://github.com/steipete/blucli)** - Play, group, and automate BluOS
-- 🤖 **[macOS Automator MCP](https://github.com/steipete/macos-automator-mcp)** - Your Friendly Neighborhood RoboScripter™
-- 🧑‍💻 **[Claude Code MCP](https://github.com/steipete/claude-code-mcp)** - One-shot MCP server for Claude Code (an agent inside your agent)
-- 🧙‍♂️ **[AXorcist](https://github.com/steipete/AXorcist)** - The power of Swift compels your UI to obey!
-- 🕸️ **[Tachikoma](https://github.com/steipete/Tachikoma)** - Modern Swift AI SDK
-- 🧮 **[tokentally](https://github.com/steipete/tokentally)** - One tiny lib for LLM token + cost math
-- ⏳ **[osc-progress](https://github.com/steipete/osc-progress)** - Tiny lib for OSC 9;4 terminal progress.
-- ✂️ **[Trimmy](https://github.com/steipete/Trimmy)** - “Paste once, run once” — flattens multi-line shell snippets so they execute
-- 🖥️ **[TauTUI](https://github.com/steipete/TauTUI)** - Swift-native TUI that won’t tear
-- 🎛️ **[Commander](https://github.com/steipete/Commander)** - Swift-first parsing, zero forks
-- 📝 **[remindctl](https://github.com/steipete/remindctl)** - Apple Reminders from the terminal
-- 🧳 **[mcporter](https://github.com/steipete/mcporter)** - Call MCPs from TypeScript or package them as a CLI
-- 🍪 **[Sweet Cookie](https://github.com/steipete/sweet-cookie)** - Inline-first browser cookie extraction—no native addons
-- 🧁 **[SweetCookieKit](https://github.com/steipete/SweetCookieKit)** - Native macOS cookie extraction for Safari, Chromium, and Firefox
-- 🍭 **[sweetlink](https://github.com/steipete/sweetlink)** - Playwright vibes in your current tab; close the agent loop
-- 🐦 **[bird](https://github.com/steipete/bird)** - Fast X CLI for tweeting, replying, and reading
-- 🧿 **[oracle](https://github.com/steipete/oracle)** - Whispering your tokens to the silicon sage
-- 👀 **[tmuxwatch](https://github.com/steipete/tmuxwatch)** - Lightweight TUI to watch tmux sessions
-- 📜 **[agent-rules](https://github.com/steipete/agent-rules)** - Shared rules/knowledge for coding with agents
-- 🎨 **[Markdansi](https://github.com/steipete/Markdansi)** - Wraps, colors, links—no baggage.
-- 🛑 **[Terminator MCP](https://github.com/steipete/Terminator)** - I'll be back... with your terminal output!
-- 🪢 **[Conduit MCP](https://github.com/steipete/conduit-mcp)** - Purr-fect MCP server for feline-fast file ops, web prowling, and data hunting
-- 🛡️ **[XC Sentinel](https://github.com/steipete/xcsentinel)** - Intelligent Xcode automation with incremental builds and AI-friendly output
-- 🍵 **[Matcha](https://github.com/steipete/Matcha)** - Swift port of Bubble Tea TUI framework
-- 🌡️ **[VibeMeter](https://github.com/steipete/vibemeter)** - Archived: AI cost tracker for Cursor/OpenAI (vibemeter.ai)
-- 📊 **[Stats Store](https://github.com/steipete/stats-store)** - Fast, privacy-first analytics for Sparkle (stats.store)
-- 🧽 **[Demark](https://github.com/steipete/demark)** - Mark My Words, HTML to Markdown!
-- 🛏️ **[eightctl](https://github.com/steipete/eightctl)** - Control your sleep, from the terminal
-- 💬 **[imsg](https://github.com/steipete/imsg)** - Send, read, stream iMessage & SMS
-- 🍺 **[homebrew-tap](https://github.com/steipete/homebrew-tap)** - Brew tap for shipping my CLI tools fast
-### Legacy Work
-- 🔄 **[CodeLooper](https://github.com/steipete/CodeLooper)** - macOS menubar app for Cursor workflow monitoring and automation
-- 🧩 **[InterposeKit](https://github.com/steipete/InterposeKit)** - Modern Swift method swizzling
-- 🪝 **[Aspects](https://github.com/steipete/Aspects)** - AOP for Objective-C (10k+ stars)
-- 📄 **[PSPDFKit](https://pspdfkit.com)** - Industry-leading PDF SDK ([exited 2021](https://techcrunch.com/2021/10/01/pspdfkit-raises-116m-its-first-outside-money-now-nearly-1b-people-use-apps-powered-by-its-collaboration-signing-and-markup-tools/))-->
+- Principal / Enterprise Architect roles for AI-enabled business applications — B2B SaaS, healthtech, CRM/support-heavy products.
+- Advisory or fractional work with AI-leaning startups that need sane agent workflows and governance before they scale.
+- Collaboration on MCPs, agent frameworks, and hardened patterns for AI in legacy-heavy environments.
 
 <!-- REPO-TRACKER:START -->
 <!-- Auto-updated: Sun, 19 Jul 2026 08:08:21 GMT -->
@@ -136,29 +81,11 @@ Here are some ideas to get you started:
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/tbalt88)
 
-## What I'm Doing
-
-- **Living in the future** - Learning and building tools to make agentic engineering faster for me self
-- **Writing about AI workflows** - 
-- **Rapid prototyping** - Full apps in days, not months, like really...
-
-
-### Media
-
-<!--- **[How to Code 20x Faster with Claude Code](https://www.youtube.com/watch?v=JGxyrPkAKiY&t=2s)** - Detailed walkthrough of my AI-native development workflow
-- **[Arena Live Build – Full Session](https://www.youtube.com/watch?v=z2IDQbNOS5s)** - Live coding session showing the full Arena build process
-- **[Claude 3 Sonnet 'Funeral' in San Francisco](https://www.wired.com/story/claude-3-sonnet-funeral-san-francisco/)** - WIRED article featuring the memorial for Claude 3.5 Sonnet ([no paywall](https://gist.github.com/steipete/8344756e51df68406eb5302d4c19d6ea))-->
-
-
-### Philosophy
-
-> "Ship beats perfect" - I build tools to solve my own problems, then share them with the world. Currently exploring how AI changes everything about software development.
-
 <details>
-<summary>Random Facts</summary>
+<summary>A little about how I work</summary>
 
-- Treat AI agents as "slot machines for programmers"
-- Run 3-6 Claude instances concurrently
-- Gym enthusiast (when not coding)
+- "Ship beats perfect" — I build tools to solve my own problems, harden them, then share them.
+- I keep a running technical watchlist by forking and auto-rebasing repos worth tracking — that's what the fork count above is, not shelved side projects.
+- Run 3–6 agent instances concurrently when the problem calls for it. Also: gym enthusiast.
 
 </details>
